@@ -4,7 +4,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 pod "AFNetworking", "~> 2.0"
-pod "MagicalRecord"
-pod 'MBProgressHUD', '~> 0.9.1'
-pod 'EAIntroView', '~> 2.7.0'
-pod 'SIAlertView'
+pod 'MYNStickyFlowLayout'
+pod "CacheKit"

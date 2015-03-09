@@ -20,28 +20,24 @@ PODS:
   - AFNetworking/UIKit (2.5.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - EAIntroView (2.7.0):
-    - EARestrictedScrollView (~> 0.1.0)
-  - EARestrictedScrollView (0.1.0)
-  - MagicalRecord (2.2):
-    - MagicalRecord/Core
-  - MagicalRecord/Core (2.2)
-  - MBProgressHUD (0.9.1)
-  - SIAlertView (1.3)
+  - CacheKit (0.1.0):
+    - FMDB (~> 2.4)
+  - FMDB (2.5):
+    - FMDB/standard
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - MYNStickyFlowLayout (0.1.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
-  - EAIntroView (~> 2.7.0)
-  - MagicalRecord
-  - MBProgressHUD (~> 0.9.1)
-  - SIAlertView
+  - CacheKit
+  - MYNStickyFlowLayout
 
 SPEC CHECKSUMS:
   AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
-  EAIntroView: 2284bb6d9105035cb09f8952933e83591f0a81ca
-  EARestrictedScrollView: 6023847998f13e2d80dff2d575181c2598349507
-  MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
-  MBProgressHUD: f3747dcbd45a9e855a6b0674550651e0b7ed250c
-  SIAlertView: d00609a1faa9d82f17b9f0b4eede64e84a577b10
+  CacheKit: 39500151b4964a37b12d27d53483ee4ca17ef7bf
+  FMDB: 0efa188cf0dd1ce82c27a478cd5f5fa245308677
+  MYNStickyFlowLayout: 526517bf63272d8adb6caa05a3cab7da3c65dbf0
 
 COCOAPODS: 0.34.4

@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		51867DC21AAB819C0041360C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51867DC11AAB819C0041360C /* main.m */; };
 		51867DC51AAB819C0041360C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51867DC41AAB819C0041360C /* AppDelegate.m */; };
-		51867DC81AAB819C0041360C /* APmenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51867DC61AAB819C0041360C /* APmenu.xcdatamodeld */; };
 		51867DCB1AAB819C0041360C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51867DCA1AAB819C0041360C /* ViewController.m */; };
 		51867DCE1AAB819C0041360C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51867DCC1AAB819C0041360C /* Main.storyboard */; };
 		51867DD01AAB819C0041360C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51867DCF1AAB819C0041360C /* Images.xcassets */; };
 		51867DD31AAB819C0041360C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51867DD11AAB819C0041360C /* LaunchScreen.xib */; };
 		51867DDF1AAB819C0041360C /* APmenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51867DDE1AAB819C0041360C /* APmenuTests.m */; };
+		51ADE4211AAB905300CDAA1C /* ShareAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ADE4201AAB905300CDAA1C /* ShareAPI.m */; };
+		51ADE42D1AACB00C00CDAA1C /* CategoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ADE42C1AACB00C00CDAA1C /* CategoryViewCell.m */; };
+		51ADE4301AACDE6E00CDAA1C /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ADE42F1AACDE6E00CDAA1C /* HeaderCollectionReusableView.m */; };
+		51ADE4341AACF8B100CDAA1C /* CategoryItemsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ADE4331AACF8B100CDAA1C /* CategoryItemsTableViewCell.m */; };
+		51ADE4371AACF97E00CDAA1C /* ItemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ADE4361AACF97E00CDAA1C /* ItemsTableViewController.m */; };
 		F1EEDDAB56F5C83F8D1BB3E3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CE335E4319CC7AEEDC2D71 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +39,6 @@
 		51867DC11AAB819C0041360C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51867DC31AAB819C0041360C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51867DC41AAB819C0041360C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		51867DC71AAB819C0041360C /* APmenu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = APmenu.xcdatamodel; sourceTree = "<group>"; };
 		51867DC91AAB819C0041360C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		51867DCA1AAB819C0041360C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		51867DCD1AAB819C0041360C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +47,16 @@
 		51867DD81AAB819C0041360C /* APmenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APmenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51867DDD1AAB819C0041360C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51867DDE1AAB819C0041360C /* APmenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APmenuTests.m; sourceTree = "<group>"; };
+		51ADE41F1AAB905300CDAA1C /* ShareAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareAPI.h; sourceTree = "<group>"; };
+		51ADE4201AAB905300CDAA1C /* ShareAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareAPI.m; sourceTree = "<group>"; };
+		51ADE42B1AACB00C00CDAA1C /* CategoryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewCell.h; sourceTree = "<group>"; };
+		51ADE42C1AACB00C00CDAA1C /* CategoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewCell.m; sourceTree = "<group>"; };
+		51ADE42E1AACDE6D00CDAA1C /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		51ADE42F1AACDE6E00CDAA1C /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		51ADE4321AACF8B100CDAA1C /* CategoryItemsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryItemsTableViewCell.h; sourceTree = "<group>"; };
+		51ADE4331AACF8B100CDAA1C /* CategoryItemsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryItemsTableViewCell.m; sourceTree = "<group>"; };
+		51ADE4351AACF97E00CDAA1C /* ItemsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsTableViewController.h; sourceTree = "<group>"; };
+		51ADE4361AACF97E00CDAA1C /* ItemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsTableViewController.m; sourceTree = "<group>"; };
 		63CE335E4319CC7AEEDC2D71 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		70248E71CDCE770C8F4EC18C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +85,8 @@
 			children = (
 				51867DC91AAB819C0041360C /* ViewController.h */,
 				51867DCA1AAB819C0041360C /* ViewController.m */,
+				51ADE4351AACF97E00CDAA1C /* ItemsTableViewController.h */,
+				51ADE4361AACF97E00CDAA1C /* ItemsTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -88,7 +103,12 @@
 		5136CF5D1AAB86A2002A063B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				51867DC61AAB819C0041360C /* APmenu.xcdatamodeld */,
+				51ADE42E1AACDE6D00CDAA1C /* HeaderCollectionReusableView.h */,
+				51ADE42F1AACDE6E00CDAA1C /* HeaderCollectionReusableView.m */,
+				51ADE42B1AACB00C00CDAA1C /* CategoryViewCell.h */,
+				51ADE42C1AACB00C00CDAA1C /* CategoryViewCell.m */,
+				51ADE4321AACF8B100CDAA1C /* CategoryItemsTableViewCell.h */,
+				51ADE4331AACF8B100CDAA1C /* CategoryItemsTableViewCell.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -96,6 +116,8 @@
 		5136CF5E1AAB86A4002A063B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				51ADE41F1AAB905300CDAA1C /* ShareAPI.h */,
+				51ADE4201AAB905300CDAA1C /* ShareAPI.m */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -313,10 +335,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51ADE4301AACDE6E00CDAA1C /* HeaderCollectionReusableView.m in Sources */,
 				51867DC51AAB819C0041360C /* AppDelegate.m in Sources */,
+				51ADE42D1AACB00C00CDAA1C /* CategoryViewCell.m in Sources */,
+				51ADE4341AACF8B100CDAA1C /* CategoryItemsTableViewCell.m in Sources */,
+				51ADE4371AACF97E00CDAA1C /* ItemsTableViewController.m in Sources */,
+				51ADE4211AAB905300CDAA1C /* ShareAPI.m in Sources */,
 				51867DC21AAB819C0041360C /* main.m in Sources */,
 				51867DCB1AAB819C0041360C /* ViewController.m in Sources */,
-				51867DC81AAB819C0041360C /* APmenu.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +468,7 @@
 				INFOPLIST_FILE = APmenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -453,6 +480,7 @@
 				INFOPLIST_FILE = APmenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -521,19 +549,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		51867DC61AAB819C0041360C /* APmenu.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				51867DC71AAB819C0041360C /* APmenu.xcdatamodel */,
-			);
-			currentVersion = 51867DC71AAB819C0041360C /* APmenu.xcdatamodel */;
-			path = APmenu.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 51867DB41AAB819C0041360C /* Project object */;
 }
